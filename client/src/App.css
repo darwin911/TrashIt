@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  grid-template-rows: minmax(100%, 300px)
+}
+
+.progress {
+  width: 300px;
+}
